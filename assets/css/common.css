@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'poppins';
+    font-style: 'regular';
+    font-weight: 400;
+    font-display: swap;
+    src: url('~/assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-style: 'medium';
+    font-weight: 500;
+    font-display: swap;
+    src: url('~/assets/fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-style: 'bold';
+    font-weight: 700;
+    font-display: swap;
+    src: url('~/assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-style: 'semibold';
+    font-weight: 600;
+    font-display: swap;
+    src: url('~/assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+
+/* ----- TEXT ----- */
+.v-application {
+    font-family: "Poppins" !important;
+}
+
+.v-application__wrap {
+    font-family: "Poppins" !important;
+}
+
+.text_h2 {
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 176px;
+}
+
+.text_h3 {
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 141px;
+}
+
+.text_h4 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 88px;
+}
+
+.text_t1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.text_t2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.text_p1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 47px;
+}
+
+.text_p2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.text_p3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text_label {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+
+.text_caption {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.text_tags {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.text_link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration-line: underline;
+}
+
+
+.commingSoonText {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 8px;
+    background-clip: text;
+    background: linear-gradient(236.47deg, #FD9468 0%, #553DEE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* ---------------- COMMON CSS ---------------- */
+
+.inputAppend_options {
+    width: 80px;
+    height: 50px;
+    background: #553DEE;
+    border: 1px solid #EEEEEE;
+    border-radius: 0px 8px 8px 0px;
+}
+
+/* ---------------- COMMON CSS ---------------- */
+
+.dropShadow {
+    border: 1px solid #D6DAE1;
+    border-radius: 8px;
+}
+
+/* COMMON TEXTFIELD CSS */
+.extraSlim .v-field__prepend-inner,
+.extraSlim .v-field__append-inner,
+.extraSlim .v-field__clearable {
+    padding-top: 8px !important;
+}
+
+.extraSlim .v-input__control {
+    margin-top: -4px;
+}
+
+.extraSlim .v-field__input {
+    padding-top: 0px !important;
+    /* font-size: 14px !important; */
+}
+
+.extraSlimSelect .v-field__prepend-inner,
+.extraSlimSelect .v-field__append-inner,
+.extraSlimSelect .v-field__clearable {
+    padding-top: 12px !important;
+}
+
+.extraSlimSelect .v-input__control {
+    margin-top: -8px;
+}
+
+.extraSlimSelect .v-field__input {
+    padding-top: 0px !important;
+    /* font-size: 14px !important; */
+}
+
+.extraSlimSelectAuto .v-field__prepend-inner,
+.extraSlimSelectAuto .v-field__append-inner,
+.extraSlimSelectAuto .v-field__clearable {
+    padding-top: 12px !important;
+}
+
+.extraSlimSelectAuto .v-input__control {
+    margin-top: -8px;
+}
+
+.extraSlimSelectAuto .v-field__input {
+    padding-top: 0px !important;
+    /* font-size: 14px !important; */
+}
+
+.extraSlimSelectAuto .v-field--focused .v-field__input {
+    padding-top: 11px !important;
+}
+
+
+/* -------------------------- */
+/* -------  NEW CSS  -------- */
+/* -------------------------- */
+
+.cText-pageTitle {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.cText-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cText-title-description {
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.cText-input-name {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cText-input-name-2 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.cText-subscript {
+    font-weight: 500;
+    font-size: 10px;
+}
