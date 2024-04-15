@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row no-gutters align="center">
-      <v-text-field
+      <!-- <v-text-field
         class="dropShadow extraSlim pb-2 ps-2"
         density="compact"
         variant="plain"
@@ -14,7 +14,7 @@
         style="max-width: 200px; max-height: 35px"
         center-affix
         @update:model-value="sendSearchTrigger_FCN"
-      ></v-text-field>
+      ></v-text-field> -->
 
       <v-spacer></v-spacer>
       <slot name="actionButtons"></slot>
@@ -100,7 +100,7 @@ const props = defineProps({
 
 const pagination = ref({
   page: 1,
-  itemsPerPage: 2,
+  itemsPerPage: 25,
   search: "",
 });
 
