@@ -38,6 +38,7 @@ interface Trigger {
 }
 
 const headers = [
+  { title: "Id", key: "id" },
   { title: "Name", key: "name" },
   { title: "Date", key: "date", width: "200" },
   { title: "Time (24 Hrs)", key: "time", width: "200" },
@@ -57,6 +58,7 @@ const reloadlist = async (val: Trigger) => {
   console.log("Data Fetched", ip);
   let arr = ip.data.map((el: any) => {
     return {
+      id: el.id,
       name: el.first_name,
       date: el.checktime.split(" ")[0] || "-",
       time: el.checktime.split(" ")[1] || "-",
@@ -75,6 +77,7 @@ const saveToExcel = async () => {
   if (ip.data.length > 0) {
     dataObj = ip.data.map((el: any) => {
       return {
+        id: el.id,
         name: el.first_name,
         date: !!el.checktime.split(" ")[0]
           ? new Date(el.checktime.split(" ")[0])
@@ -83,6 +86,13 @@ const saveToExcel = async () => {
       };
     });
     let dataSchema = [
+      {
+        column: "ID",
+        type: String,
+        value: (val) => val.id,
+        width: 50,
+        align: "left",
+      },
       {
         column: "Name",
         type: String,
